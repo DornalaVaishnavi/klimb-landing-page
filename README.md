@@ -1,12 +1,55 @@
-# React + Vite
+# KLIMB Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+KLIMB is a sports-tech startup focused on identifying young sports talent and helping children discover the best sport for their abilities and interests. This project is a landing page for KLIMB that offers an engaging, child-friendly, and parent-approved online experience where kids can start their journey with an interactive quiz guided by a friendly mascot.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This landing page is designed to be clean, modern, responsive, and animated to enhance user experience, especially for children and their parents.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features Implemented
+
+- **Sticky Navigation Bar** with smooth scroll links: Home, How It Works, Tracker, Testimonials, Get Started  
+- **Hero Section** with headline, subheadline, call-to-action button, and mascot visual  
+- **Journey Tracker Section** showing 5 step cards in a horizontal scroll carousel with scroll-triggered animations  
+- **Quiz Launcher Section** prompting users to start the quiz, with mascot visuals and progress placeholder  
+- **Testimonials Section** with horizontally scrollable testimonial cards featuring quotes and avatars  
+- **Footer Section** with logo, tagline, site links, social media icons, and a fun user stat  
+
+---
+
+## Tech Stack
+
+- React (created with Vite)  
+- TailwindCSS for styling  
+- Framer Motion for animations and scroll effects (optional)  
+- Component-based architecture for modularity and reusability  
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1.Clone the repository  
+   ```bash
+   git clone https://github.com/DornalaVaishnavi/klimb-landing-page.git
+Navigate into the project directory
+2.Navigate into the project directory
+cd klimblanding
+3.Install dependencies
+npm install
+4.Start the development server
+npm run dev
+5.Open your browser and go to http://localhost:3000
+Deployment
+This project can be deployed easily on platforms like Vercel, Netlify, or GitHub Pages.
+
+
+
+
