@@ -1,0 +1,48 @@
+/* src/components/QuizLauncher.css */
+
+.quiz-launcher {
+  background-color: #f0f8ff;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 12px;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+.quiz-launcher h2 {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 16px;
+}
+
+.quiz-launcher p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 24px;
+}
+
+.quiz-launcher button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.quiz-launcher button:hover {
+  background-color: #45a049;
+}
+
+.mascot-placeholder {
+  font-size: 3rem;
+  margin-top: 30px;
+}
+
+.progress-bar-placeholder {
+  margin-top: 20px;
+  color: #888;
+  font-size: 0.9rem;
+}

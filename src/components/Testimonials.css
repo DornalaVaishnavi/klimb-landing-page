@@ -1,0 +1,59 @@
+/* src/components/Testimonials.css */
+
+.testimonials {
+  padding: 60px 20px;
+  background-color: #fefefe;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.testimonial-cards {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 20px;
+  scroll-behavior: smooth;
+}
+
+.testimonial-card {
+  flex: 0 0 auto;
+  width: 300px;
+  background-color: #f1f9ff;
+  padding: 20px;
+  border-radius: 10px;
+  scroll-snap-align: start;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.avatar {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.quote {
+  font-style: italic;
+  color: #555;
+  margin: 10px 0;
+}
+
+.name {
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Optional: Hide scroll bar in modern browsers */
+.testimonial-cards::-webkit-scrollbar {
+  display: none;
+}
+
+.testimonial-cards {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

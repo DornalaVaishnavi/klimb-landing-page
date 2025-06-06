@@ -1,0 +1,39 @@
+.journey-section {
+  padding: 4rem 2rem;
+  background-color: #f0f4ff;
+}
+
+.journey-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2a3b8f;
+  font-size: 2rem;
+}
+
+.journey-cards {
+  display: flex;
+  overflow-x: auto;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  scroll-snap-type: x mandatory;
+}
+
+.card {
+  flex: 0 0 250px;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  scroll-snap-align: start;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
